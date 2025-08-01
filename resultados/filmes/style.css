@@ -1,0 +1,86 @@
+
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.title {
+    color: #00ffd1;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+
+.container .w-100 {
+    margin: 20px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input#nome-filme {
+    max-width: 400px;
+    flex-grow: 1;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #00ffd1;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+button.btn, a#btnvoltar {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+button.btn:hover, a#btnvoltar:hover {
+    background-color: #0077ff;
+    transform: scale(1.05);
+}
+
+
+#btnvoltar[hidden] {
+    display: none;
+}
+
+
+#lista {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card-filme {
+    background-color: #1e1e1e;
+    border: 1px solid #00ffd1;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+    transition: transform 0.3s;
+}
+
+.card-filme:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-filme h5 {
+    color: #00ffd1;
+    margin-bottom: 10px;
+}
+
+.card-filme p {
+    color: #ccc;
+    font-size: 0.9rem;
+}

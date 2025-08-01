@@ -1,0 +1,47 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: #cbf2fc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #09d6fa;
+            color: #effdff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 400px;
+            margin: 30px auto;
+            background: #bbe9fc;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        label {
+            display: block;
+            margin-top: 16px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        select, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #21d7f7;
+            color: #f7f7f7;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 16px;
+        }
+        button:hover {
+            background: #e96caa;
+        }
+        #avatarFormContainer{
+            display: flex;
+        }

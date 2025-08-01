@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Avatar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gerador de Avatar</h1>
+    </header>
+    <main id="avatarFormContainer"> 
+        <form id="avatarForm">
+            <label for="personagem">Tipo de Personagem:</label>
+            <select id="personagem" name="personagem">
+                <option value="Aneka">Feminino</option>
+                <option value="Felix">Masculino</option>
+                <option value="Aleatório">Aleatório</option>
+            </select>
+
+            <label for="olho">Tipo de Olho:</label>
+            <select id="olho" name="olho">
+                <option value="variant02">Grande</option>
+                <option value="variant13">Pequeno</option>
+                <option value="variant01">Asiático</option>
+            </select>
+
+            <label for="sobrancelha">Tipo de Sobrancelha:</label>
+            <select id="sobrancelha" name="sobrancelha">
+                <option value="variant03">Grossa</option>
+                <option value="variant10">Fina</option>
+                <option value="variant13">Arqueada</option>
+            </select>
+
+            <label for="boca">Tipo de Boca:</label>
+            <select id="boca" name="boca">
+                <option value="happy01">Sorriso</option>
+                <option value="happy14">Séria</option>
+                <option value="sad01">Aberta</option>
+            </select>
+
+            <label for="cabelo">Tipo de Cabelo:</label>
+            <select id="cabelo" name="cabelo">
+                <option value="variant23">Grande</option>
+                <option value="variant20">Curto</option>
+                <option value="variant14">Amarrado</option>
+                <option value="variant34">Careca</option>
+            </select>
+
+            <label for="oculos">Tipo de oculos:</label>
+            <select id="oculos" name="oculos">
+                <option value="variant01">Redondo</option>
+                <option value="variant04">Quadrado</option>
+                <option value="variant02">Escuro</option>
+                <option value="">sem oculos</option>
+            </select>
+            
+            <label for="naris">Tipo de Naris:</label>
+            <select id="naris" name="naris">
+                <option value="variant01">Grande</option>
+                <option value="variant05">Pequeno</option>
+                <option value="variant04">pontudo</option>
+            </select>
+
+            <button type="submit">Gerar Avatar</button>
+        </form>
+        <div id="avatarResultado" style="margin-top:24px; text-align:center;"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

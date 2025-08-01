@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz.js" defer></script>
+    <title>Quiz</title>
+</head>
+<body>
+
+    <form>
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome"> <br><br>
+
+  <label for="senha">Senha:</label>
+  <input type="password" id="senha" name="senha"> <br><br>
+  <input type="submit" value="Enviar">
+    <h1>Quiz de Conhecimentos Gerais</h1>
+    </form>
+    <button id="btn" onclick="iniciarQuiz()">Iniciar Quiz</button>
+    <select id="category">
+        <option value="9">Conhecimentos Gerais</option>
+        <option value="11">Entretenimento:Filme</option>
+        <option value="17">Ciência e Natureza</option>
+        <option value="21">Esportes</option>
+        <option value="21">Entretenimento:Desenhos animados e animaçôes</option>
+        <div id="question"></div>
+    </select>
+
+    
+    <div id="quiz-container">
+        <div id="quiz"></div>
+        <div id="result"></div>
+    </div>
+
+
+
+</body>
+</html>

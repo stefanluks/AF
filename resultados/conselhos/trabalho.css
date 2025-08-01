@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(64, 164, 204, 0.7), rgba(18, 70, 180, 0.7)),
+    url('https://i.pinimg.com/originals/63/18/ac/6318acb63be3b329fbf615f92194d213.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  display: none;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+h1,
+h2 {
+  margin-bottom: 65px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4bacd3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #6fa171;
+}
+
+#advice {
+  font-size: 1.2em;
+  color: #333;
+  margin: 80px 0;
+}
+
+.voltar {
+  background-color: #e74c3c;
+  margin-left: 10px;
+}
+
+.voltar:hover {
+  background-color: #c0392b;
+}

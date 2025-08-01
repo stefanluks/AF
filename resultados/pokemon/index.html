@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex Web</title>
+  <link href="pokeball.png" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Pokédex Interativa</h1>
+    <section class="card pokedex-card">
+      <h2>Pokémon</h2>
+      <img id="pokeImage" src="pokeball.png" alt="Imagem do Pokémon" />
+      <p><strong>Nome:</strong> <span id="pokeNome">???</span></p>
+      <p><strong>Tipo:</strong> <span id="pokeTipo">???</span></p>
+      <p><strong>Nível:</strong> <span id="pokeNivel">???</span></p>
+      <button onclick="carregarPokemon()">Carregar Pokémon</button>
+    </section>
+    <section class="card senha-card">
+      <h2>Gerador de Senhas</h2>
+      <div class="checkboxes">
+        <label><input type="checkbox" id="maiusculas"> Letras maiúsculas</label>
+        <label><input type="checkbox" id="minusculas"> Letras minúsculas</label>
+        <label><input type="checkbox" id="numeros"> Números</label>
+        <label><input type="checkbox" id="simbolos"> Símbolos</label>
+      </div>
+      <button onclick="gerarSenha()">Gerar Senha</button>
+      <input type="text" id="senhaGerada" readonly placeholder="Senha gerada..." />
+      <button onclick="copiarSenha()">Copiar</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

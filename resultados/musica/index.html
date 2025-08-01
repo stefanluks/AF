@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louvor Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <div class="player-container">
+        
+        <h3 class="app-title">Adora Som</h3>
+
+        <div class="track-info">
+            <img src="assets/default-art.jpg" alt="Capa do Álbum" class="track-art">
+            <h2 class="track-name">Selecione uma Música</h2>
+            <p class="track-artist">Player Pronto</p>
+        </div>
+
+        <div class="sliders-container">
+            <div class="seek-slider-group">
+                <span class="current-time">00:00</span>
+                <input type="range" min="0" max="100" value="0" class="seek-slider">
+                <span class="total-duration">00:00</span>
+            </div>
+            <div class="volume-slider-group">
+                <i class="fas fa-volume-down"></i>
+                <input type="range" min="0" max="100" value="90" class="volume-slider">
+                <i class="fas fa-volume-up"></i>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <button class="prev-track-btn" title="Anterior">
+                <i class="fas fa-step-backward fa-2x"></i>
+            </button>
+            <button class="playpause-track-btn" title="Play/Pause">
+                <i class="fas fa-play-circle fa-4x"></i>
+            </button>
+            <button class="next-track-btn" title="Próxima">
+                <i class="fas fa-step-forward fa-2x"></i>
+            </button>
+        </div>
+
+        <audio id="audio-element"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

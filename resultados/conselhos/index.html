@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo do Conselheiro</title>
+  <link rel="stylesheet" href="trabalho.css">
+</head>
+<body>
+
+  <!-- Tela 1: Boas-vindas -->
+  <div id="welcomeScreen" class="screen active">
+     <h1>Sobre o Jogo</h1>
+           <p>
+              Bem-vindo ao <strong>Jogo do Conselheiro</strong>!<br><br>
+              A cada clique, você receberá um <strong>conselho aleatório</strong> para te motivar ou refletir.<br><br>
+              É perfeito para momentos em que você precisa de uma palavra amiga.
+          </p>
+     <button onclick="mostrarConselheiro()">Começar</button>
+  </div>
+
+  <!-- Tela 2: Conselheiro -->
+  <div id="adviceScreen" class="screen">
+    <h2>Conselheiro</h2>
+    <p id="advice">Clique para receber um conselho</p>
+    <button onclick="showAdvice()">Novo Conselho</button>
+    <button onclick="voltarInicio()" class="voltar">Voltar</button>
+  </div>
+
+  <script src="ttrabalho.js"></script>
+</body>
+</html>

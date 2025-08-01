@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5eb1a7;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    position:relative
+
+}
+.Cartao{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border:5px solid rgb(173, 96, 33);
+    top:0px;
+    left:0px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+button {
+    background-color: #c0144d;
+    color: rgb(212, 201, 206);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+button:hover {
+    background-color: #ea2e96e1;
+
+}
+
+#galeria {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 05px#d41441;
+
+}

@@ -1,0 +1,43 @@
+h1{
+    color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgb(236, 177, 109); 
+    
+
+
+}
+
+body{
+    background-color: bisque;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content:  center;
+    align-items: center;
+
+} 
+
+button{
+    background-color: rgb(212, 93, 8);
+    color: white;
+    border: solid 2px tomato;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 250px;
+    
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    color: rgb(241, 116, 26);
+}

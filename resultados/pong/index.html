@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pong gamer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Pong Clássico</h1>
+  </body>
+</html>
+ </header>
+  <main>
+    <label for="maxScoreSelect">Pontuação Máxima:</label>
+<select id="maxScoreSelect" onchange="updateMaxScore()">
+  <option value="3">3</option>
+  <option value="5" selected>5</option>
+  <option value="10">10</option>
+  <option value="15">15</option>
+</select>
+<button onclick="reiniciarjogo()">Reiniciar Jogo</button>
+    <canvas id="pongCanvas" width="900" height="600"></canvas>
+
+    <div class="controls">
+      <button onclick="setMode(1)">1 Jogador</button>
+      <button onclick="setMode(2)">2 Jogadores</button>
+      <button onclick="reiniciarjogo()">Reiniciar Jogo</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+<button onclick="setMode(2)">2 Jogadores</button>
+
+</html>
