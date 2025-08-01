@@ -120,16 +120,16 @@ function Dificuldade(){
 
 let listaDeImg = [
     "Defalt",
-    "/images/Placa_mae.png",
-    "/images/Memoria_ram.png",
-    "/images/Placa_de_video.png",
-    "/images/Processador.png",
-    "/images/Fonte.png",
-    "/images/GabineteBranco.png",
-    "/images/GabinetePreto.png",
-    "/images/HD.png",
-    "/images/SSD.png",
-    "/images/Cooler.png"
+    "images/Placa_mae.png",
+    "images/Memoria_ram.png",
+    "images/Placa_de_video.png",
+    "images/Processador.png",
+    "images/Fonte.png",
+    "images/GabineteBranco.png",
+    "images/GabinetePreto.png",
+    "images/HD.png",
+    "images/SSD.png",
+    "images/Cooler.png"
 ]
 
 
