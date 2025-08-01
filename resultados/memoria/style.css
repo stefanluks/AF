@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(to right, rgb(92, 90, 90), rgb(161, 159, 159), rgb(92, 90, 90) );
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s;
+
+    text-align: center;
+}
+
+#mais{
+    display: flex;
+    align-items: end;
+    margin-left: 90%;
+
+    background-color: rgb(54, 53, 53);
+
+    width: 50px;
+    height: 50px;
+    border: solid black 3px;
+    border-radius: 10px;
+
+    font-size: 65px;
+    text-align: center;
+
+    transition: 0.3s;
+}
+#mais:hover{
+    background-color: gray;
+}
+#btnLock{
+    display: none;
+}
+label{
+        margin-bottom: 5px;
+}
+
+.cartao{
+    width: 100px;
+    height: 100px;
+
+    background-color: gray;
+    border: solid black 2px;
+    border-radius: 3px;
+    margin: 10px ;
+
+    transition: 0.3s;
+
+    font-size: 85px;
+}
+
+#caixa{
+    width: 30%;
+    height: 250px auto;
+    border-radius: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+
+    background-color: rgb(180, 180, 180);
+    border: solid rgb(43, 42, 42) 2px;
+
+}
+
+.cartao:hover{
+    background-color: azure;
+}
+
+.btn{
+    width: 80px;
+    height: 50px;
+
+    font-size: auto;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    border: solid black 2px;
+    border-radius: 4px;
+    background-color: teal;
+}
+.btn.active{
+    background-color: rgb(2, 194, 194);
+}
+
+.btn.active:active {
+    background-color: aqua;
+}
+
+.Cartao.virada{
+    width: 0;
+    color:  transparent;
+}
+
+#Iniciar{
+    background-color: rgb(34, 34, 43);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    font-size:  25px;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    transition: 0,3s;
+    color: rgb(30, 30, 31);
+}

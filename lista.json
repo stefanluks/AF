@@ -12,6 +12,10 @@
         "pasta":"resultados/cachorro",
         "aluno":"Maria Erlita"
     },{
+        "nome":"Jogo da Memória",
+        "pasta":"resultados/memoria",
+        "aluno":"Cristiano"
+    },{
         "nome":"Conselhos",
         "pasta":"resultados/conselhos",
         "aluno":"Geovana"
