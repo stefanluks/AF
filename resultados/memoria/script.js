@@ -38,16 +38,16 @@ caixa.style.borderRadius = "50%"
 let TempoRodando = false;
 let TotalDeCartas = {
     "Defalt": 0,
-    "images/Placa_mae.png": 0,
-    "images/Memoria_ram.png": 0,
-    "images/Placa_de_video.png": 0,
-    "images/Processador.png": 0,
-    "images/Fonte.png": 0,
-    "images/GabineteBranco.png": 0,
-    "images/GabinetePreto.png": 0,
-    "images/HD.png": 0,
-    "images/SSD.png": 0,
-    "images/Cooler.png": 0,
+    "/images/Placa_mae.png": 0,
+    "/images/Memoria_ram.png": 0,
+    "/images/Placa_de_video.png": 0,
+    "/images/Processador.png": 0,
+    "/images/Fonte.png": 0,
+    "/images/GabineteBranco.png": 0,
+    "/images/GabinetePreto.png": 0,
+    "/images/HD.png": 0,
+    "/images/SSD.png": 0,
+    "/images/Cooler.png": 0,
 };
 let TotalDeCartasViradas = 0;
 
@@ -120,16 +120,16 @@ function Dificuldade(){
 
 let listaDeImg = [
     "Defalt",
-    "images/Placa_mae.png",
-    "images/Memoria_ram.png",
-    "images/Placa_de_video.png",
-    "images/Processador.png",
-    "images/Fonte.png",
-    "images/GabineteBranco.png",
-    "images/GabinetePreto.png",
-    "images/HD.png",
-    "images/SSD.png",
-    "images/Cooler.png"
+    "/images/Placa_mae.png",
+    "/images/Memoria_ram.png",
+    "/images/Placa_de_video.png",
+    "/images/Processador.png",
+    "/images/Fonte.png",
+    "/images/GabineteBranco.png",
+    "/images/GabinetePreto.png",
+    "/images/HD.png",
+    "/images/SSD.png",
+    "/images/Cooler.png"
 ]
 
 
@@ -203,8 +203,9 @@ function CreateFoto(id){
         if(TotalDeCartas[listaDeImg[num]] == 2){
             return CreateFoto()
         }else{
-            img.src = listaDeImg[num];
-            img.id = listaDeImg[num];
+            let url = window.location.href;
+            img.src = url + listaDeImg[num];
+            img.id = url + listaDeImg[num];
 
             TotalDeCartas[listaDeImg[num]] += 1;
         }
