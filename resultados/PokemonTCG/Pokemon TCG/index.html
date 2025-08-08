@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon TCG - Home</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #2c3e50, #34495e);
+      margin: 0;
+      padding: 0;
+      color: #ecf0f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      width: 100%;
+      background-color: #1a252f;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    .navbar a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #f1c40f;
+    }
+
+    h1 {
+      margin-top: 3rem;
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      max-width: 600px;
+    }
+
+    .btn-container {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      background-color: #f39c12;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #e67e22;
+    }
+
+    footer {
+      margin-top: auto;
+      width: 100%;
+      background-color: #1a252f;
+      color: #bdc3c7;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="Pacotes.html">Abrir Pacotes</a>
+    <a href="TCGdex.html">TCGdex</a>
+    <a href="colecao.html">Coleção</a>
+  </nav>
+
+  <h1>Bem-vindo ao Pokémon TCG</h1>
+  <p>Explore cartas incríveis, abra pacotes virtuais e monte sua própria coleção Pokémon! Este projeto é uma experiência interativa para fãs do TCG.</p>
+
+  <div class="btn-container">
+    <a class="btn" href="Pacotes.html">Abrir Pacotes</a>
+    <a class="btn" href="Colecao.html">Ver Coleção</a>
+    <a class="btn" href="TCGdex.html">TCGdex</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Gabriel Nunes Lima. Todos os direitos reservados.
+  </footer>
+
+</body>
+
+</html>
