@@ -98,4 +98,4 @@ function drawGame() {
 }
 
 // Executa o jogo a cada 100ms
-const game = setInterval(drawGame, 150);
+const game = setInterval(drawGame, 80);

@@ -1,47 +1,74 @@
 [
     {
-        "nome":"Make Avatar",
-        "pasta":"resultados/avatar",
-        "aluno":"Julia"
-    },{
-        "nome":"Jogo da Cobrinha",
-        "pasta":"resultados/Cobrinha",
-        "aluno":"Isaac Newton"
-    },{
-        "nome":"Geração Nova",
-        "pasta":"resultados/cachorro",
-        "aluno":"Maria Erlita"
-    },{
-        "nome":"Jogo da Memória",
-        "pasta":"resultados/memoria",
-        "aluno":"Cristiano"
-    },{
-        "nome":"Conselhos",
-        "pasta":"resultados/conselhos",
-        "aluno":"Geovana"
-    },{
-        "nome":"Cine J",
-        "pasta":"resultados/filmes",
-        "aluno":"Jerdens"
-    },{
-        "nome":"Gatos",
-        "pasta":"resultados/gato",
-        "aluno":"Lo-ruama"
-    },{
-        "nome":"Pokemon",
-        "pasta":"resultados/pokemon",
-        "aluno":"Luan"
-    },{
-        "nome":"Pong Game",
-        "pasta":"resultados/pong",
-        "aluno":"Vanessa"
-    },{
-        "nome":"Quiz",
-        "pasta":"resultados/quiz",
-        "aluno":"Hellen"
-    },{
-        "nome":"Adora Som",
-        "pasta":"resultados/musica",
-        "aluno":"Jayron"
+        "turma": "425",
+        "curso": "Técnico em Informática",
+        "projetos": [
+            {
+                "nome": "Quiz Trivia",
+                "pasta": "resultados/quiz_trivia",
+                "aluno": "Miguel Arcanjo"
+            }
+        ]
+    },
+    {
+        "turma": "431",
+        "curso": "Técnico em Informática",
+        "projetos": [
+            {
+                "nome": "Make Avatar",
+                "pasta": "resultados/avatar",
+                "aluno": "Julia"
+            },
+            {
+                "nome": "Jogo da Cobrinha",
+                "pasta": "resultados/Cobrinha",
+                "aluno": "Isaac Newton"
+            },
+            {
+                "nome": "Geração Nova",
+                "pasta": "resultados/cachorro",
+                "aluno": "Maria Erlita"
+            },
+            {
+                "nome": "Jogo da Memória",
+                "pasta": "resultados/memoria",
+                "aluno": "Cristiano"
+            },
+            {
+                "nome": "Conselhos",
+                "pasta": "resultados/conselhos",
+                "aluno": "Geovana"
+            },
+            {
+                "nome": "Cine J",
+                "pasta": "resultados/filmes",
+                "aluno": "Jerdens"
+            },
+            {
+                "nome": "Gatos",
+                "pasta": "resultados/gato",
+                "aluno": "Lo-ruama"
+            },
+            {
+                "nome": "Pokemon",
+                "pasta": "resultados/pokemon",
+                "aluno": "Luan"
+            },
+            {
+                "nome": "Pong Game",
+                "pasta": "resultados/pong",
+                "aluno": "Vanessa"
+            },
+            {
+                "nome": "Quiz",
+                "pasta": "resultados/quiz",
+                "aluno": "Hellen"
+            },
+            {
+                "nome": "Adora Som",
+                "pasta": "resultados/musica",
+                "aluno": "Jayron"
+            }
+        ]
     }
 ]
