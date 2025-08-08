@@ -7,6 +7,10 @@
                 "nome": "Quiz Trivia",
                 "pasta": "resultados/quiz_trivia",
                 "aluno": "Miguel Arcanjo"
+            },{
+                "nome": "Pokemon TCG",
+                "pasta": "resultados/PokemonTCG/Pokemon TCG",
+                "aluno": "Gabriel Nunes"
             }
         ]
     },
